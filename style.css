@@ -1,0 +1,188 @@
+/* CSS Reset */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,body,h1,h2,h3,h4,h5,h6,p,ul,ol {
+  margin: 0;
+  padding: 0;
+}
+
+ul,ol {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+
+body{
+  margin:0;
+  font-family:Noto Sans TC, sans-serif; 
+  justify-content: center; /* 整個 card 水平置中 */
+  line-height: 1.5;
+}
+
+
+
+.top{
+  background-image:url('https://raw.githubusercontent.com/hexschool/2022-web-layout-training/refs/heads/main/2025-week1/hero.png');
+  height:400px;
+  width:100%;
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  color:white;
+  margin-bottom:80px;
+
+}
+.top1{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  height:100%;
+}
+.top h1{
+  font-size:40px;
+}
+
+.top h3{
+  font-size:28px;
+}
+
+.about{
+  height:auto;
+  width:856px;
+  max-width:1000px;
+  background-color:rgba(245, 254, 231, 1);
+  text-align: center;
+  box-sizing: border-box;
+  padding:32px;
+  margin:0 auto;
+  margin-bottom:48px;
+}
+
+
+.container{
+  width:856px;
+  margin:0 auto;
+}
+
+/* .history,
+.concept,
+.story{
+    margin: 0;
+    padding: 0;
+} */
+
+img{
+  width:100%;
+  height: auto;
+  display:block;
+}
+h4{
+  font-size:24px;
+  margin-top:48px;
+  margin-bottom:24px;
+}
+h5{
+  font-size:20px;
+  color:rgba(87, 162, 3, 1);
+  margin-bottom:16px;
+}
+p{
+  letter-spacing:0.05em;
+}
+
+.year{
+  list-style:none;
+  margin-bottom:10px;
+  padding-right:10px;
+}
+
+.history-item{
+  list-style:none;
+  line-height:170%;
+}
+
+.history-item::before{
+  content:"•";
+}
+
+.history-item .content{
+  border-left: 1px solid #000;
+  padding-left:10px;
+}
+  
+  
+.concept .content{
+  list-style:none;
+  border-left:3px solid rgba(222, 226, 230, 1);
+  margin-bottom:10px;
+  padding-left:10px;
+}
+
+.story .content{
+  color:rgba(87, 162, 3, 1);
+  border-bottom:1px solid;
+  display:inline-block;
+  margin-bottom:15px;
+  text-decoration:none;
+}
+
+.story-item{
+  list-style:none;
+}
+
+
+.bi-arrow-up-right{
+  color:rgba(87, 162, 3, 1);
+  font-size:15px;
+}
+
+.section{
+  border-bottom:1px solid #ddd;
+  margin:50px 0px;
+  
+}
+
+ul {
+  border-bottom:1px solid #ddd;
+  padding-bottom:24px;
+}
+
+
+.footer{
+  background-color:#F8F9FA;
+  color:#6C757D;
+  font-size:14px;
+  text-align:center;
+  padding:50px 0px;
+  box-sizing: border-box;
+  margin-top:64px;
+}
+
