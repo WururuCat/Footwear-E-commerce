@@ -61,7 +61,6 @@ body{
 }
 
 .container{
-    width: 1920px;
     height: 1628px;
     display: flex;
     margin-top: 64px;
