@@ -58,6 +58,11 @@ body{
         display: flex;
         gap:60px; 
     }
+        color: #ADB5BD;
+    }
+    a:active{
+        color: #6C757D;
+    }
 }
 
 
@@ -181,9 +186,7 @@ h3{
     padding: 12px 24px;
     border-radius: 5px;
   }
-  :hover{
-    background: #5d5d5d;
-  }
+  
 }
 
 .footer{
