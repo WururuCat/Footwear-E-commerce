@@ -58,6 +58,12 @@ body{
         display: flex;
         gap:60px; 
     }
+    a:hover{
+        color: #ADB5BD;
+    }
+    a:active{
+        color: #6C757D;
+    }
 }
 
 .container{
