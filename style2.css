@@ -58,6 +58,7 @@ body{
         display: flex;
         gap:60px; 
     }
+        a:hover{
         color: #ADB5BD;
     }
     a:active{
@@ -68,7 +69,6 @@ body{
 
 .container{
   display:flex;
-  width: 1296px;
   height: 1389px;
   margin-top:24px;
   margin-left:312px;
@@ -131,6 +131,9 @@ h3{
 
   ul li img{
     width: 342.67px;
+  }
+  ul li a:hover{
+    color: #6C757D;
   }
 
 }
