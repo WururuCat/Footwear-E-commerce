@@ -180,7 +180,9 @@ h3{
     background-color: #000000;
     padding: 12px 24px;
     border-radius: 5px;
-
+  }
+  :hover{
+    background: #5d5d5d;
   }
 }
 
